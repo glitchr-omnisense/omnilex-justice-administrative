@@ -1,0 +1,61 @@
+{
+ "decisions": {
+  "body": {
+   "hits": {
+    "total": {
+     "value": 2927
+    },
+    "hits": [
+     {
+      "_id": "DTA_2535431_20260929.xml_TA75",
+      "_source": {
+       "Identification": "DTA_2535431_20260929.xml",
+       "Code_Juridiction": "TA75",
+       "Nom_Juridiction": "Tribunal Administratif de Paris",
+       "Numero_ECLI": "undefined",
+       "Code_Publication": "D",
+       "Formation_Jugement": "undefined",
+       "Numero_Dossier": "2535431",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-09-29",
+       "lastModified": "2026-09-30"
+      },
+      "highlight": null
+     },
+     {
+      "_id": "DTA_2408018_20260929.xml_TA75",
+      "_source": {
+       "Identification": "DTA_2408018_20260929.xml",
+       "Code_Juridiction": "TA75",
+       "Nom_Juridiction": "Tribunal Administratif de Paris",
+       "Numero_ECLI": "undefined",
+       "Code_Publication": "C",
+       "Formation_Jugement": "2e Section - 1re Chambre",
+       "Numero_Dossier": "2408018",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-09-29",
+       "lastModified": "2026-09-30"
+      },
+      "highlight": null
+     },
+     {
+      "_id": "DTA_2401786_20260928.xml_TA75",
+      "_source": {
+       "Identification": "DTA_2401786_20260928.xml",
+       "Code_Juridiction": "TA75",
+       "Nom_Juridiction": "Tribunal Administratif de Paris",
+       "Numero_ECLI": "undefined",
+       "Code_Publication": "",
+       "Formation_Jugement": "4e Section - 2e Chambre",
+       "Numero_Dossier": "2401786",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-09-28",
+       "lastModified": "2026-09-30"
+      },
+      "highlight": null
+     }
+    ]
+   }
+  }
+ }
+}

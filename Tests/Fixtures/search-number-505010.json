@@ -1,0 +1,29 @@
+{
+ "decisions": {
+  "body": {
+   "hits": {
+    "total": {
+     "value": 1
+    },
+    "hits": [
+     {
+      "_id": "DCE_505010_20261002.xml_CE",
+      "_source": {
+       "Identification": "DCE_505010_20261002.xml",
+       "Code_Juridiction": "CE",
+       "Nom_Juridiction": "Section du Contentieux",
+       "Numero_ECLI": "ECLI:FR:CECHS:2026:505010.20261002",
+       "Code_Publication": "C",
+       "Formation_Jugement": "8ème chambre jugeant seule",
+       "Numero_Dossier": "505010",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-10-02",
+       "lastModified": "2026-10-03"
+      },
+      "highlight": null
+     }
+    ]
+   }
+  }
+ }
+}

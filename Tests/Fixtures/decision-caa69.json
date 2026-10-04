@@ -1,0 +1,31 @@
+{
+ "decisions": {
+  "body": {
+   "hits": {
+    "total": {
+     "value": 1
+    },
+    "hits": [
+     {
+      "_id": "DCA_24LY03335_20260930.xml_CAA69",
+      "_source": {
+       "Identification": "DCA_24LY03335_20260930.xml",
+       "Code_Juridiction": "CAA69",
+       "Nom_Juridiction": "COUR ADMINISTRATIVE D'APPEL DE LYON",
+       "Numero_ECLI": "undefined",
+       "Code_Publication": "C",
+       "Formation_Jugement": "3ème chambre - formation à 3",
+       "Numero_Dossier": "24LY03335",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-09-30",
+       "paragraph": "Vu la procédure suivante :$$$Procédure contentieuse antérieure$$$La société Digital Capital Ltd a demandé au tribunal administratif de Lyon, à titre principal, de prononcer la décharge des rappels de taxe sur la valeur ajoutée réclamés au titre de la période du 1er janvier 2016 au 31 décembre 2017 ainsi que des pénalités correspondantes ainsi que des cotisations d’impôt sur les sociétés auxquelles elle a été assujettie au titre des années 2016 et 2017 et des intérêts de retard et pénalités correspondantes ; à titre subsidiaire, de prononcer la décharge des même rappels de taxe sur la valeur ajoutée et la décharge partielle des cotisations d’impôt sur les sociétés, intérêts de retard et pénalités au titre des mêmes années et de prononcer la décharge de la pénalité de 100 %, prévue à l'article 1732 du code général des impôts.$$$Par un jugement n° 2305147 du 1er octobre 2024, le tribunal administratif de Lyon a rejeté sa demande.$$$(...)",
+       "lastModified": "2026-10-03"
+      },
+      "highlight": null
+     }
+    ]
+   }
+  },
+  "requestOrigin": null
+ }
+}

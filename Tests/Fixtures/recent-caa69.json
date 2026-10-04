@@ -1,0 +1,61 @@
+{
+ "decisions": {
+  "body": {
+   "hits": {
+    "total": {
+     "value": 26
+    },
+    "hits": [
+     {
+      "_id": "DCA_24LY03335_20260930.xml_CAA69",
+      "_source": {
+       "Identification": "DCA_24LY03335_20260930.xml",
+       "Code_Juridiction": "CAA69",
+       "Nom_Juridiction": "COUR ADMINISTRATIVE D'APPEL DE LYON",
+       "Numero_ECLI": "undefined",
+       "Code_Publication": "C",
+       "Formation_Jugement": "3ème chambre - formation à 3",
+       "Numero_Dossier": "24LY03335",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-09-30",
+       "lastModified": "2026-10-03"
+      },
+      "highlight": null
+     },
+     {
+      "_id": "DCA_25LY01532_20260930.xml_CAA69",
+      "_source": {
+       "Identification": "DCA_25LY01532_20260930.xml",
+       "Code_Juridiction": "CAA69",
+       "Nom_Juridiction": "COUR ADMINISTRATIVE D'APPEL DE LYON",
+       "Numero_ECLI": "undefined",
+       "Code_Publication": "C",
+       "Formation_Jugement": "3ème chambre - formation à 3",
+       "Numero_Dossier": "25LY01532",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-09-30",
+       "lastModified": "2026-10-03"
+      },
+      "highlight": null
+     },
+     {
+      "_id": "DCA_25LY00721_20260930.xml_CAA69",
+      "_source": {
+       "Identification": "DCA_25LY00721_20260930.xml",
+       "Code_Juridiction": "CAA69",
+       "Nom_Juridiction": "COUR ADMINISTRATIVE D'APPEL DE LYON",
+       "Numero_ECLI": "undefined",
+       "Code_Publication": "C",
+       "Formation_Jugement": "3ème chambre - formation à 3",
+       "Numero_Dossier": "25LY00721",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-09-30",
+       "lastModified": "2026-10-03"
+      },
+      "highlight": null
+     }
+    ]
+   }
+  }
+ }
+}

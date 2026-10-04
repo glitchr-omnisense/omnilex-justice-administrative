@@ -1,0 +1,31 @@
+{
+ "decisions": {
+  "body": {
+   "hits": {
+    "total": {
+     "value": 1
+    },
+    "hits": [
+     {
+      "_id": "DCE_505010_20261002.xml_CE",
+      "_source": {
+       "Identification": "DCE_505010_20261002.xml",
+       "Code_Juridiction": "CE",
+       "Nom_Juridiction": "Section du Contentieux",
+       "Numero_ECLI": "ECLI:FR:CECHS:2026:505010.20261002",
+       "Code_Publication": "C",
+       "Formation_Jugement": "8ème chambre jugeant seule",
+       "Numero_Dossier": "505010",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-10-02",
+       "paragraph": "Vu la procédure suivante :$$$Par une requête sommaire, un mémoire complémentaire et quatre mémoires en réplique, enregistrés les 6 juin 2025, 11 juin 2025, 4 septembre 2025, 6 octobre 2025, 3 juillet 2026 et 24 juillet 2026 au secrétariat du contentieux du Conseil d’Etat, la société Compagnie des Bateaux-Mouches demande au Conseil d’Etat :$$$1°) de faire produire le contrat d’objectifs et de performance 2020-2029 conclu entre l’Etat et Voies navigables de France (VNF) ainsi que les fiches de présence et de vérification du quorum concernant la délibération n°6 du 4 décembre 2024 du conseil d’administration de VNF ;$$$2°) d’ordonner avant dire-droit, sur le fondement de l’article R. 621-1 du code de justice administrative, une expertise sur les données économiques et financières relatives à l’appréciation des coûts et de recueillir, sur le fondement de l’article R. 626-2 du même code, un avis technique afin de déterminer les coûts devant être pris en compte, la méthode retenue, la détermination du coût d’entretien d’un kilomètre de Seine ;$$$(...)",
+       "lastModified": "2026-10-03"
+      },
+      "highlight": null
+     }
+    ]
+   }
+  },
+  "requestOrigin": null
+ }
+}

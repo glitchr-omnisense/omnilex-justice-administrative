@@ -1,0 +1,45 @@
+{
+    "name": "omnilex/justice-administrative",
+    "type": "library",
+    "description": "Omnilex justice administrative: the decisions of the Conseil d'État, the administrative courts of appeal and the administrative tribunals from their open data (opendata.justice-administrative.fr) - search by text, court, kind and dates, one decision with its full text, what was added since a date - no key.",
+    "keywords": [
+        "law",
+        "case-law",
+        "conseil-etat",
+        "justice-administrative",
+        "open-data",
+        "ecli",
+        "omnilex"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilex": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilex\\JusticeAdministrative\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilex\\JusticeAdministrative\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

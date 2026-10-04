@@ -1,0 +1,61 @@
+{
+ "decisions": {
+  "body": {
+   "hits": {
+    "total": {
+     "value": 25
+    },
+    "hits": [
+     {
+      "_id": "DCE_504016_20261002.xml_CE",
+      "_source": {
+       "Identification": "DCE_504016_20261002.xml",
+       "Code_Juridiction": "CE",
+       "Nom_Juridiction": "Section du Contentieux",
+       "Numero_ECLI": "ECLI:FR:CECHS:2026:504016.20261002",
+       "Code_Publication": "D",
+       "Formation_Jugement": "8ème chambre jugeant seule",
+       "Numero_Dossier": "504016",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-10-02",
+       "lastModified": "2026-10-03"
+      },
+      "highlight": null
+     },
+     {
+      "_id": "DCE_504917_20261001.xml_CE",
+      "_source": {
+       "Identification": "DCE_504917_20261001.xml",
+       "Code_Juridiction": "CE",
+       "Nom_Juridiction": "Section du Contentieux",
+       "Numero_ECLI": "ECLI:FR:CECHR:2026:504917.20261001",
+       "Code_Publication": "B",
+       "Formation_Jugement": "2ème et 7ème chambres réunies",
+       "Numero_Dossier": "504917",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-10-01",
+       "lastModified": "2026-10-02"
+      },
+      "highlight": null
+     },
+     {
+      "_id": "DCE_503183_20261001.xml_CE",
+      "_source": {
+       "Identification": "DCE_503183_20261001.xml",
+       "Code_Juridiction": "CE",
+       "Nom_Juridiction": "Section du Contentieux",
+       "Numero_ECLI": "ECLI:FR:CECHR:2026:503183.20261001",
+       "Code_Publication": "B",
+       "Formation_Jugement": "2ème et 7ème chambres réunies",
+       "Numero_Dossier": "503183",
+       "Type_Decision": "Décision",
+       "Date_Lecture": "2026-10-01",
+       "lastModified": "2026-10-02"
+      },
+      "highlight": null
+     }
+    ]
+   }
+  }
+ }
+}
