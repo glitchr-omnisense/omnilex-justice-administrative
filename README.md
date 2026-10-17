@@ -1,7 +1,7 @@
 # omnilex/justice-administrative
 
 The decisions of the Conseil d'État, the administrative courts of appeal and the
-administrative tribunals for [glitchr/omnilex](https://github.com/glitchr-studio/omnilex), from
+administrative tribunals for [omniscient/omnilex](https://github.com/glitchr-studio/omnilex), from
 the open data of the administrative justice
 (<https://opendata.justice-administrative.fr>): a search by text, court, kind of decision and
 dates, one decision with its full text, what was added since a date. No key.
