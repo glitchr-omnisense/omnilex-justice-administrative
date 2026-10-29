@@ -35,17 +35,13 @@ None: the open data is open. Calls carry the `User-Agent` of the `user_agent` op
 
 | Option | Type | Default | Required | |
 |---|---|---|---|---|
-| `recent` | `lastModified` or `Date_Lecture` | `lastModified` (`JusticeAdministrativeSource::ADDED`) | no | the date `recent()` reads: the day a decision joined the base, or the day it was read in open court (`DECIDED`); another value is an `InvalidArgumentException` |
+| `recent` | `lastModified` or `Date_Lecture` | `lastModified` (`JusticeAdministrativeSource::ADDED`) | no | the date `recent()` reads: the day a decision joined the base, or the day it was read in open court (`DECIDED`); another value is an `InvalidConfigException` (which `Registry::usable()` leaves out) |
 | `throttle` | float | `1.0` | no | seconds between two calls: the interface is the site's own engine, not a service offered to programs |
 | `base_uri` | string | `https://opendata.justice-administrative.fr/recherche/api` | no | |
 | `user_agent` | string | `omnilex/1.x (+https://github.com/glitchr-omnisense/omnilex)` | no | |
 
 Without an HTTP client, the factory makes one with a 60-second timeout: some routes take a few
 seconds (20 s were seen for a range of dates over every court).
-
-> [!WARNING]
-> Known defect: a `recent` other than its two values is an `InvalidArgumentException`, not an
-> `InvalidConfigException`, which `Registry::usable()` does not skip.
 
 ## Capabilities
 

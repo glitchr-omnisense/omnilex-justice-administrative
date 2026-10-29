@@ -161,6 +161,16 @@ final class JusticeAdministrativeSourceTest extends TestCase
         self::assertSame('model_Dates/openData/Date_Lecture/2026-10-01/false/25', end($this->calls));
     }
 
+    /** A recent() mode it does not know is a misconfigured source, which Registry::usable() leaves out. */
+    public function testAnUnknownRecentIsAnInvalidConfig(): void
+    {
+        $registry = new \Omnilex\Registry([new JusticeAdministrativeSourceFactory(new MockHttpClient())], ['ja' => ['factory' => 'justice-administrative', 'options' => ['recent' => 'yesterday']]]);
+        self::assertSame([], $registry->usable());
+
+        $this->expectException(\Omnilex\Exception\InvalidConfigException::class);
+        $registry->get('ja');
+    }
+
     public function testADecisionOfTheConseilDEtat(): void
     {
         $decision = $this->source()->decision('DCE_505010_20261002.xml_CE');

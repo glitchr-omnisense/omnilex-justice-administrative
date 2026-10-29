@@ -2,6 +2,7 @@
 
 namespace Omnilex\JusticeAdministrative;
 
+use Omnilex\Exception\InvalidConfigException;
 use Omnilex\Exception\NotSupportedException;
 use Omnilex\Exception\ProviderException;
 use Omnilex\Model\Capabilities;
@@ -70,7 +71,7 @@ final class JusticeAdministrativeSource extends HttpSource implements SearchInte
         private readonly string $recent = self::ADDED,
     ) {
         if (!\in_array($recent, [self::ADDED, self::DECIDED], true)) {
-            throw new \InvalidArgumentException(\sprintf('recent() reads "%s" or "%s", not "%s".', self::ADDED, self::DECIDED, $recent));
+            throw new InvalidConfigException(\sprintf('recent() reads "%s" or "%s", not "%s".', self::ADDED, self::DECIDED, $recent));
         }
         parent::__construct($http, $baseUri, $headers, $throttle);
     }
