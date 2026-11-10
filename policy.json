@@ -1,0 +1,41 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "justice-administrative",
+    "rateLimits": null,
+    "concurrency": null,
+    "rights": {
+        "commercial": "allowed",
+        "openSourceRequired": null,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "allowed",
+        "attribution": {
+            "required": true,
+            "text": "Source : base de données ouvertes (Open Data) tenue par le Conseil d'État - document chargé sur le site source le <date>",
+            "url": "https://opendata.justice-administrative.fr",
+            "where": [
+                "source",
+                "display"
+            ]
+        },
+        "licence": "etalab-2.0"
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://opendata.justice-administrative.fr/cgu.html",
+        "policy": null,
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": "opendata-signalerunprobleme@conseil-etat.fr",
+        "notes": "Read on 2026-11-10: the CGU of opendata.justice-administrative.fr (version of 18 January 2022, Licence Ouverte 2.0). The site states it 'ne comporte pas d'API' and sets no rate limit: this package calls the JSON interface of the site's own search engine (/recherche/api/...), undocumented and liable to change. Obligations: name the source (the Conseil d'État's Open Data base, a hyperlink allowed) and show the load date clearly; no alteration, no detaching a decision from its context or reformulating it, a partial reproduction shown as such, commentary kept apart; keep the data up to date; never use judges' and clerks' identity to evaluate their practice (criminal offence); report any re-identifying element to the contact address. Commercial use and redistribution allowed by the licence under those conditions."
+    }
+}

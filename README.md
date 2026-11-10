@@ -69,6 +69,17 @@ Nothing.
 
 Verified against the real service on 2026-10-04 (see [docs/](docs/index.md)).
 
+## Usage policy
+
+Declared as data in [`policy.json`](policy.json) (read at https://opendata.justice-administrative.fr/cgu.html on 2026-11-10), and honoured on every request by the
+core: a limit reached waits when its window ends within `max_wait` seconds, else the request is not
+sent ([Usage policies](https://github.com/glitchr-omnisense/omnilex/blob/1.x/docs/policies.md)).
+
+- Limits: not published (unknown).
+- Licence: etalab-2.0; commercial use: allowed.
+- Credit: required: Source : base de données ouvertes (Open Data) tenue par le Conseil d'État - document chargé sur le site source le <date> (https://opendata.justice-administrative.fr).
+- Needs: nothing.
+
 ## Responsibility
 
 This package is an independent, unofficial client: it is not affiliated with, endorsed by or
