@@ -25,6 +25,14 @@ omnilex:
         administratif: { factory: justice-administrative }
 ```
 
+## Install
+
+```sh
+composer require omnilex/justice-administrative
+```
+
+It brings the family's core, `omnisense/omnilex`, and `omnisense/contracts` with it. No account and no key: the open data of the administrative justice (below, and [`policy.json`](policy.json)). `$http` is `HttpClient::create()` in plain PHP.
+
 ## What the service is, and is not
 
 The site documents **monthly archives to download** (`/DCE/`, `/DCA/`, `/DTA/`: zipped XML,
